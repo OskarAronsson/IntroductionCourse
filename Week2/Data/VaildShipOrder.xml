@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<purchaseOrder xmlns="http://tempuri.org/PurchaseOrderSchema.xsd" orderDate="2020-02-27" confirmDate="2020-02-27">
+  <shipTo country="US">
+    <id>8395401a-3e2e-40b8-a038-8577c1280da1</id>
+    <name>Jan Olofsson</name>
+    <street>Storgatan</street>
+    <city>TestStaden</city>
+    <state>Västratest</state>
+    <zip>42364</zip>
+  </shipTo>
+  <billTo country="US">
+    <id>01ebb230-a171-4eec-9393-a58428ce5379</id>
+    <name>Erik Jansson</name>
+    <street>lillgatan</street>
+    <city>DemoCity</city>
+    <state>värmstat</state>
+    <zip>86321</zip>
+  </billTo>
+  <id>f3508b16-13b0-4240-98fd-81f200c38c82</id>
+  <items>
+    <item partNum="001str">
+      <productName>hammer</productName>
+      <quantity>2</quantity>
+      <USPrice>23.45</USPrice>
+      <id>036f98c0-993a-4b23-8fd0-a1da5c4a6823</id>
+    </item>
+    <item partNum="002str">
+      <productName>Saw</productName>
+      <quantity>1</quantity>
+      <USPrice>50.00</USPrice>
+      <id>45ab0ad5-ed55-4b66-9710-1f468dad203b</id>
+    </item>
+  </items>
+</purchaseOrder>
