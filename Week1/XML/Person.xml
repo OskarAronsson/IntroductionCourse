@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Person xmlns="http://tempuri.org/XMLSchema.xsd">
   <department>Tech</department>
-  <firstName>Gustav</firstName>
+  <name>Gustav</name>
   <age>32</age>
 </Person>
